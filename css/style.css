@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.outside h3{
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 150px;
+}
+.container{
+  text-align: center;
+}
+#labelemail{
+  padding-right: 10px;
+  font-size: 15px ;
+}
+#labelpwd{
+  font-size: 15px ;
+}
+#email-id {
+  font-size: 12px;
+  padding: 2px;
+  text-align: center;
+}
+#pwd{
+  font-size: 12px;
+  padding: 2px;
+  text-align: center;
+}
+#submit-btn{
+  padding: 5px 8px 5px 8px;
+  border-radius: 5px;
+  background-color: black;
+  color: #eee;
+  margin-left: 190px; 
+  font-size: 13px;
+}
+#ques{
+  font-size: 15px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+#register-btn{
+  padding: 8px 10px 8px 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: #eee;
+  margin-left: 580px; 
+  font-size: 13px;
+  text-align: center;
+}
+
+.signupform{
+  text-align: center;
+}
+.modal h3{
+  text-align: center;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  gap: 0.4rem;
+  width: 400px;
+  padding: 1.3rem;
+  min-height: 250px;
+  position:absolute;
+  top: 10%;
+  background-color: white;
+  border-radius: 15px;
+  z-index: 2;
+  margin-left: 450px;
+}
+.modal .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  } 
+.modal input {
+  padding: 0.7rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+.modal p {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0.4rem 0 0.2rem;
+} 
+button {
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+}
+#signup-btn{
+  padding: 5px 8px 5px 8px;
+  border-radius: 5px;
+  background-color: black;
+  color: #eee; 
+  font-size: 13px;
+}
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.4rem;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1em;
+  }   
+.btn-open {
+  position: absolute;
+  bottom: 150px;
+}
+.btn-close {
+  transform: translate(10px, -20px);
+  padding: 0.5rem 0.7rem;
+  background: #eee;
+  border-radius: 50%;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.hidden {
+  display: none;
+}
+
+.container2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 10px;
+  padding-top: 200px;
+}
+#labelinput{
+  font-size: 15px ;
+  padding-right: 7px;
+}
+#labelsearch{
+  font-size: 15px ;
+}
+#integer_input{
+  font-size: 12px;
+  padding: 2px;
+  text-align: center;
+}
+#search_integer{
+  font-size: 12px;
+  padding: 2px;
+  text-align: center;
+}
+#search-btn{
+  padding: 5px 8px 5px 8px;
+  border-radius: 5px;
+  background-color: black;
+  color: #eee;
+  font-size: 14px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+#search_result{
+  font-size: 16px;
+  font-weight: bold;
+}
