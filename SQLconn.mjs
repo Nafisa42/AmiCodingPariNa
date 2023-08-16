@@ -47,7 +47,7 @@ app.post('/api/insertUser', async (req, res) => {
     const query = `
       SELECT created_at, input_values
       FROM users
-      WHERE user_id = ? AND timestamp >= ? AND timestamp <= ?
+      WHERE user_id = ? AND created_at >= ? AND created_at <= ?
       ORDER BY created_at ASC;
     `;
 
