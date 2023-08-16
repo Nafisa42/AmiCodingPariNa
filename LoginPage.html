@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication Page</title>    
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- User Authentication/Login Page -->
+    <section class="outside">
+        <h3>Please Sign-in</h3><br>
+        <div class="container">
+            <form onsubmit="return submitForm()">
+                <label id="labelemail">Email Id:</label>
+                <input type="email" id="email-id" placeholder="Enter email address"><br><br>
+                <label id="labelpwd">Password:</label>
+                <input type="password" id="pwd" placeholder="Enter password"><br><br>
+                <button type="submit" id="submit-btn">Submit</button><br><br>
+                <p id="ques">Don't have an account?</p> 
+            </form>
+        </div>
+    </section>
+
+    <!-- Registration Page -->
+    <section class="modal hidden">
+        <div class="flex">
+          <button type="button" class="btn-close">x</button>
+        </div>
+        <div>
+          <h3>Create a new account</h3><br>
+          <form class="signupform">
+            <input type="text" placeholder="First Name" id="firstname"><br><br>
+            <input type="text" placeholder="Last Name" id="lastname"><br><br>
+            <input type="email" placeholder="Email address" id="email"><br><br>
+            <input type="password" placeholder="New password" id="password"><br><br>
+            <input type="password" placeholder="Re-type password" id="re-password"><br><br>
+            <button type="submit" id="signup-btn">Sign Up</button>
+          </form>
+        </div>
+      </section>
+      
+      <!-- Register button that opens registration modal window -->
+      <div class="overlay hidden"></div>
+      <button type="button" class="btn btn-open" id="register-btn">Register Now!</button>
+    
+    <script src="LoginPage.js"></script>
+    <script src="SQLconn.mjs"></script>
+</body>
+</html>

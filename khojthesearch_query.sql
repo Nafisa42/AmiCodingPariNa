@@ -1,0 +1,1 @@
+SELECT * FROM `khojthesearch`.`users` LIMIT 1000;

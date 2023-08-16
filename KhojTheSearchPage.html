@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khoj The Search Page</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container2">
+        <!-- clicking on the Khoj button, it calls the searchForInteger(event) function -->
+        <form id="searchForm" onsubmit="return searchForInteger(event)">
+            <label id="labelinput">Input Values:</label>
+            <input type="text" placeholder="eg. 1, 2, 4, 11" id="integer_input"><br><br>
+            <label id="labelsearch">Search Value:</label>
+            <input type="text" placeholder="enter an integer value" id="search_integer" ><br><br>
+            <button type="submit" id="search-btn">Khoj</button><br><br>
+            <label id="search_result">Result:</label>
+        </form>
+    </div>
+    <script src="KhojTheSearchPage.js"></script>
+</body>
+</html>
